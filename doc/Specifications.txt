@@ -1,0 +1,62 @@
+﻿-------------------- Table.sql --------------------
+
+Contient les informations necessaires
+a l'elaboration de la base de donnees
+
+DROP toutes les tables de la base
+CREATE toutes les tables de la base
+INSERT toutes les données dans la base
+
+------------------- Requete.sql -------------------
+
+Contient les requetes imposees ainsi que
+les requetes personnelles sous la forme
+
+PREPARE q1 AS pour la 1ere requete imposee
+PREPARE p1 AS pour la 1ere requete personnelle
+
+---------------- Fonctionnalite.sql ---------------
+
+Contient les requetes illustrant les fonctionnalites
+demandees pour un utilisateur et un administrateur
+
+---------------- Script_req_imp.sql ---------------
+
+Script permettant de repondre au question 1 a 10
+des requetes imposees. Exemple :
+
+1.	Plateforme -> 'Steam'
+	Annee -> 2014
+
+2.	Annee -> 2015
+	Mois -> 05
+
+3.	Annee -> 2015
+	Mois -> 04
+	Limite -> 10
+
+4.	Nombre de semaine -> 8
+
+6.	Annee -> 2014
+
+7.	Annee -> 2014
+
+8.	Nombre de mois -> 6
+
+--------------- Script_req_perso.sql --------------
+
+Script permettant de repondre au question 1 a 10
+des requetes personnelles. Exemple :
+
+2.	Nombre de machines -> 4
+
+4.	Plateforme -> 'Steam'
+
+5.	Limite -> 10
+
+6.	Plateforme -> 'Battle.net'
+
+8.	Machine -> 'Windows'
+	Annee -> 2014
+
+9.	Limite -> 10
